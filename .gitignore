@@ -4,3 +4,4 @@ Thumbs.db
 # Игнорирование логов и зависимостей
 npm-debug.log*
 node_modules/
+# Дополнительно
