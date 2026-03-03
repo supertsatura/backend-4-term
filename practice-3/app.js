@@ -15,22 +15,32 @@ app.use(express.json());
 
 // маршрут главной страницы
 app.get('/', (req, res) => {
-    res.send("Welcome!");
-})
-
-// получить конкретный товар
-app.get('/product/:id', (req, res) => {
-    const productID = req.params.id;
-    const product = products.find(p => p.id === Number(productID));
-    if (product)
-        res.status(200).res.json(product);
-    else
-        res.status(404).send("Not Found!");
+    res.status(200).send("Welcome!");
 })
 
 // получить все товары
 app.get('/products', (req, res) => {
-    res.json(products);
+    res.status(200).json(products);
+})
+
+// получить конкретный товар (query-запрос)
+app.get('/products', (req, res) => {
+    const productID = req.query.id;
+    const product = products.find(p => p.id === Number(productID));
+    if (product)
+        res.status(200).json(product);
+    else
+        res.status(404).send("Not Found!");
+})
+
+// получить конкретный товар
+app.get('/products/:id', (req, res) => {
+    const productID = req.params.id;
+    const product = products.find(p => p.id === Number(productID));
+    if (product)
+        res.status(200).json(product);
+    else
+        res.status(404).send("Not Found!");
 })
 
 // создать товар
@@ -47,17 +57,19 @@ app.post('/products', (req, res) => {
 
 // изменить товар
 app.patch('/product/:id', (req, res) => {
-    const product = products.find((p) => p.id == req.params.id);
+    const productID = req.params.id;
+    const product = products.find((p) => p.id === Number(productID));
     const {name, price} = req.body;
     if (name !== undefined) product.name = name;
     if (price !== undefined) product.price = price;
-    res.send('Product updated!');
+    res.status(204).send('Product updated!');
 })
 
 // удалить товар
 app.delete('/product/:id', (req, res) => {
-    products = products.filter((p) => p.id !== req.params.id);
-    res.send('Product deleted!');
+    const productID = req.params.id;
+    products = products.filter((p) => p.id !== productID);
+    res.status(204).send('Product deleted!');
 })
 
 // запуск сервера
