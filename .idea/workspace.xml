@@ -2,89 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fff1a195-e0aa-4d7e-aaf1-21048bd86478" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/components/ProductItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/components/ProductModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/components/ProductsList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/components/ProductsPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/src/styles/ProductsPage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-7/frontend/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/.idea/practice-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/images/iPhone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-1/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-2/.idea/practice-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-2/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-2/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-2/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/.idea/practice-3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к открытому апи 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к открытому апи 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к открытому апи 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к открытому апи 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к открытому апи 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к своему серверу 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к своему серверу 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к своему серверу 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/Screenshots/Запрос к своему серверу 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-3/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/.idea/practice-4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/backend/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/components/ProductItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/components/ProductModal.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/components/ProductsList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/components/ProductsPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/src/styles/ProductsPage.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-4/frontend/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-7/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice-7/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-8/backend/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-8/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-8/backend/package.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/KP2/practice-10/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KP2/practice-10/frontend/apiClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KP2/practice-10/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KP2/practice-10/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KP2/practice-11/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KP2/practice-9/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KP3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KP1/practice-4/frontend/src/components/ProductItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/KP1/practice-4/frontend/src/components/ProductItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KP1/practice-4/frontend/src/components/ProductsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/KP1/practice-4/frontend/src/components/ProductsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KP1/practice-4/frontend/src/components/ProductsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/KP1/practice-4/frontend/src/components/ProductsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KP2/practice-8/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/KP2/practice-8/backend/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -114,14 +46,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.127.0.0.1:3000.executor": "Debug",
+    "JavaScript Debug.localhost:3000.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/David/Desktop/backend-4-term/practice-7",
+    "last_opened_file_path": "C:/Users/David/Desktop/backend-4-term/KP3",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -132,8 +69,32 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Desktop\backend-4-term\KP3" />
+      <recent name="C:\Users\David\Desktop\backend-4-term\KP3\practice 15-16" />
+      <recent name="C:\Users\David\Desktop\backend-4-term\KP3\practice 13-14" />
+      <recent name="C:\Users\David\Desktop\backend-4-term\KP2\practice-10\frontend" />
       <recent name="C:\Users\David\Desktop\backend-4-term\practice-7" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Desktop\backend-4-term\KP3" />
+      <recent name="C:\Users\David\Desktop\backend-4-term\KP3\practice 15-16" />
+      <recent name="C:\Users\David\Desktop\backend-4-term\KP3\practice 13-14" />
+      <recent name="C:\Users\David\Desktop\backend-4-term\KP3\practice 13-14\backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.127.0.0.1:3000">
+    <configuration name="127.0.0.1:3000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://127.0.0.1:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:3000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.127.0.0.1:3000" />
+        <item itemvalue="JavaScript Debug.localhost:3000" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -153,6 +114,12 @@
       <workItem from="1774180802577" duration="21049000" />
       <workItem from="1774262534510" duration="2685000" />
       <workItem from="1774266028156" duration="3238000" />
+      <workItem from="1774340023212" duration="12613000" />
+      <workItem from="1774429057036" duration="13115000" />
+      <workItem from="1774466243478" duration="5080000" />
+      <workItem from="1775127952087" duration="23000" />
+      <workItem from="1775489267349" duration="37514000" />
+      <workItem from="1775844510678" duration="21972000" />
     </task>
     <servers />
   </component>

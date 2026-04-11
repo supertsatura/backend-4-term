@@ -21,8 +21,8 @@ const ProductsPage = () => {
         try {
             setLoading(true);
             setError(null);
-            const data = await api.getCars();  // ← ИСПРАВЛЕНО: getProducts → getCars
-            setProducts(data);                  // данные от сервера (машинки)
+            const data = await api.getCars();
+            setProducts(data);
         } catch (err) {
             console.error("Ошибка загрузки:", err);
             setError("Не удалось загрузить товары. Попробуйте позже.");

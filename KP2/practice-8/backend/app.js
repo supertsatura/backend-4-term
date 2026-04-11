@@ -100,8 +100,7 @@ function authMiddleware(req, res, next) {
     }
 
     try {
-        const payload = jwt.verify(token, JWT_SECRET);
-        req.user = payload;
+        req.user = jwt.verify(token, JWT_SECRET);
         next();
     } catch (err) {
         return res.status(401).json({
@@ -159,6 +158,19 @@ function authMiddleware(req, res, next) {
  *           type: string
  *         price:
  *           type: number
+ *
+ *     ProductPatchRequest:
+ *       type: object
+ *       properties:
+ *         title:
+ *           type: string
+ *         category:
+ *           type: string
+ *         description:
+ *           type: string
+ *         price:
+ *           type: number
+ *       description: Все поля опциональны, обновляются только переданные
  *
  *     Product:
  *       type: object
@@ -380,6 +392,88 @@ app.put("/products/:id", authMiddleware, (req, res) => {
     product.productPrice = Number(price);
 
     return res.status(200).json({message: "Товар обновлен."});
+});
+
+/**
+ * @swagger
+ * /products/{id}:
+ *   patch:
+ *     summary: Частичное обновление товара
+ *     tags: [Products]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: ID товара
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/ProductPatchRequest'
+ *           example:
+ *             title: "Обновленное название"
+ *             price: 3000
+ *     responses:
+ *       200:
+ *         description: Товар частично обновлен
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 message:
+ *                   type: string
+ *                 product:
+ *                   $ref: '#/components/schemas/Product'
+ *       400:
+ *         description: Некорректные данные (например, price не число)
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 error:
+ *                   type: string
+ *       401:
+ *         description: Не авторизован
+ *       404:
+ *         description: Товар не найден
+ */
+
+app.patch("/products/:id", authMiddleware, (req, res) => {
+    const {title, category, description, price} = req.body;
+    const product = findProductByID(req.params.id);
+
+    if (!product) {
+        return res.status(404).json({error: "Товар не найден."});
+    }
+
+    if (price !== undefined && isNaN(Number(price))) {
+        return res.status(400).json({error: "Price должен быть числом."});
+    }
+
+    if (title !== undefined) {
+        product.productTitle = title.trim();
+    }
+
+    if (category !== undefined) {
+        product.productCategory = category.trim();
+    }
+
+    if (description !== undefined) {
+        product.productDescription = description.trim();
+    }
+
+    if (price !== undefined) {
+        product.productPrice = Number(price);
+    }
+
+    return res.status(200).json({message: "Товар частично обновлен."});
 });
 
 /**

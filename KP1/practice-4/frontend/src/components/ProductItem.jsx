@@ -1,6 +1,6 @@
 const ProductItem = ({ product, onEdit, onDelete }) => {
     return (
-        <div className="productRow">
+        <div className="productItem">
             <div className="productMain">
                 <div className="productId">#{product.id}</div>
                 <div className="productName">{product.name}</div>
