@@ -1,0 +1,40 @@
+# Модули Node.js
+node_modules/
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+
+# Переменные окружения (ключи, пароли!)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Сборки
+dist/
+build/
+
+# Временные файлы
+tmp/
+temp/
+
+# Зависимости (если используете npm shrinkwrap)
+npm-shrinkwrap.json
+
+# Тесты
+coverage/
+
+# База данных (если локальная)
+*.db
+*.sqlite
